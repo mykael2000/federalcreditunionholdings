@@ -1,0 +1,48 @@
+[06-Nov-2022 22:40:27 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[06-Nov-2022 22:40:27 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 02:35:14 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 02:35:14 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 02:58:40 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 02:58:40 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 03:00:06 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 03:00:06 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 03:04:59 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 03:04:59 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 03:06:34 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 03:06:34 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 05:23:37 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 05:23:37 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 05:26:46 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 17
+[07-Nov-2022 05:26:46 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 27
+[07-Nov-2022 05:39:43 UTC] PHP Notice:  Undefined variable: email in /home/nexustra/swissholdingbank.com/user/login.php on line 18
+[07-Nov-2022 05:39:43 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 28
+[07-Nov-2022 05:48:47 UTC] PHP Notice:  Undefined index: email in /home/nexustra/swissholdingbank.com/user/login.php on line 16
+[07-Nov-2022 05:48:47 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 28
+[07-Nov-2022 06:02:58 UTC] PHP Notice:  Undefined index: email in /home/nexustra/swissholdingbank.com/user/login.php on line 18
+[07-Nov-2022 06:02:58 UTC] PHP Notice:  Undefined variable: firstname in /home/nexustra/swissholdingbank.com/user/login.php on line 30
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "address2" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 31
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "dob" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 39
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "gender" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 40
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "nationality" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 41
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "occupation" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 42
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "income_source" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 43
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "marital_status" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 44
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "joint_account" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 45
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined array key "account_name" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 46
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  move_uploaded_file(../../user-area/user/dashboard/uploads/earneth.jpeg): Failed to open stream: No such file or directory in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 59
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpp0nzBC' to '../../user-area/user/dashboard/uploads/earneth.jpeg' in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 59
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  move_uploaded_file(uploads/peter-hulce-yGvXBNQ54jk-unsplash.jpg): Failed to open stream: No such file or directory in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 61
+[05-Sep-2024 06:29:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQxLjPt' to 'uploads/peter-hulce-yGvXBNQ54jk-unsplash.jpg' in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 61
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "address2" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 31
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "dob" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 39
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "gender" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 40
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "nationality" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 41
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "occupation" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 42
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "income_source" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 43
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "marital_status" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 44
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "joint_account" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 45
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  Undefined array key "account_name" in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 46
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  move_uploaded_file(../../user-area/user/dashboard/uploads/WhatsApp Image 2024-08-19 at 9.49.41 PM.jpeg): Failed to open stream: No such file or directory in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 59
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php836Nsz' to '../../user-area/user/dashboard/uploads/WhatsApp Image 2024-08-19 at 9.49.41 PM.jpeg' in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 59
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  move_uploaded_file(uploads/WhatsApp Image 2024-08-19 at 9.49.41 PM.jpeg): Failed to open stream: No such file or directory in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 61
+[23-Sep-2024 12:35:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptvL6CB' to 'uploads/WhatsApp Image 2024-08-19 at 9.49.41 PM.jpeg' in /home/writersb/federalfirstcapitalunion.com/user/register.php on line 61
