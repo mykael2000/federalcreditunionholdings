@@ -199,7 +199,7 @@ $loans = $stmt->get_result();
                             </td>
 
                             <td class="px-6 py-4 text-sm text-gray-700">
-                                $<?= number_format($row['amount'], 2) ?>
+                                <?php echo $user['currency']; ?><?= number_format($row['amount'], 2) ?>
                             </td>
 
                             <td class="px-6 py-4 text-sm text-gray-700">

@@ -33,7 +33,7 @@ include "includes/header.php";
                                 <div class="balance  hidden-mobile">
                                     <div class="balance-title">Total Balance</div>
                                     <div class="balance-value">
-                                        <span>$<?php echo number_format($user['total_balance'], 2, '.', ','); ?></span>
+                                        <span><?php echo $user['currency']; ?><?php echo number_format($user['total_balance'], 2, '.', ','); ?></span>
                                     </div>
                                     <div class="balance-link"><a class="btn btn-link btn-underlined"
                                             href="transactions.php"><span>View Statement</span><i
@@ -42,7 +42,7 @@ include "includes/header.php";
                                 <div class="balance">
                                     <div class="balance-title">Available Balance</div>
                                     <div class="balance-value">
-                                        $<?php echo number_format($user['available_balance'], 2, '.', ','); ?></div>
+                                        <?php echo $user['currency']; ?><?php echo number_format($user['available_balance'], 2, '.', ','); ?></div>
                                     <div class="balance-link"><a class="btn btn-link btn-underlined"
                                             href="transactions.php"><span>View Statement</span><i
                                                 class="os-icon os-icon-arrow-right4"></i></a></div>

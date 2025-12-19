@@ -88,7 +88,7 @@ while ($fetchdeposit = mysqli_fetch_assoc($querydepo)) {
                                                     </td>
                                                     <td class='text-center'
                                                         style="color: <?php if ($fetchdeposit['mode'] == 'Credit') {echo 'green';} else {echo 'red';}?>">
-                                                        $<?php echo $fetchdeposit['amount']; ?></td>
+                                                        <?php echo $user['currency']; ?><?php echo $fetchdeposit['amount']; ?></td>
                                                     <td class='text-center'><?php echo $fetchdeposit['description']; ?>
                                                     </td>
                                                     <td class='text-center'><?php echo $fetchdeposit['details']; ?></td>

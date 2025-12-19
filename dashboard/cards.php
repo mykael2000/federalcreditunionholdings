@@ -218,7 +218,7 @@
                         </div>
 
                         <div class="mt-4 text-xs opacity-80">
-                            Daily limit: $<?= number_format($card['daily_limit'], 2) ?>
+                            Daily limit: <?php echo $user['currency']; ?><?= number_format($card['daily_limit'], 2) ?>
                         </div>
 
                         <div class="absolute top-4 right-4">

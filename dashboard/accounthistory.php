@@ -111,7 +111,7 @@ $hasTransactions = mysqli_num_rows($txQuery) > 0;
                                             </span>
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                            $<?= number_format($tx['amount'], 2) ?>
+                                            <?php echo $user['currency']; ?><?= number_format($tx['amount'], 2) ?>
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
                                             <?php

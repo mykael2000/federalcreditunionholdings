@@ -548,7 +548,7 @@ exit;
                             </div>
                         </div>
                         <div class="mt-3 flex items-center justify-between">
-                            <p class="text-sm text-gray-500">Available balance: <span class="font-medium">$<?php echo $user['total_balance']; ?></span></p>
+                            <p class="text-sm text-gray-500">Available balance: <span class="font-medium"><?php echo $user['currency']; ?><?php echo $user['total_balance']; ?></span></p>
                             
                             <!-- Quick Amount Buttons -->
                             <div class="flex space-x-2">

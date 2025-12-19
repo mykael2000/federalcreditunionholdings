@@ -21,6 +21,7 @@ if (isset($_POST['register'])) {
     $lastname = trim($_POST["lastname"]);
     $username = trim($_POST["username"]);
     $country = trim($_POST['country']);
+    $currency = $_POST['currency'];
     $email = trim($_POST["email"]);
     $account_type = $_POST['accounttype'];
     $phone = trim($_POST["phone"]);
@@ -74,14 +75,14 @@ if (isset($_POST['register'])) {
         $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
         // Prepare and execute the INSERT statement
-        $stmt_insert_user = $conn->prepare("INSERT INTO users (firstname, middlename, lastname, account_id, username, email, phone, country, password, account_type) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        $stmt_insert_user = $conn->prepare("INSERT INTO users (firstname, middlename, lastname, account_id, username, email, phone, country, currency, password, account_type) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
         
         // Check if prepare was successful
         if ($stmt_insert_user === false) {
             $message = "<div class='bg-red-100 border-l-4 border-red-500 text-red-800 p-2 rounded-md shadow-sm'>Database error (user insertion): " . $conn->error . "</div>";
         } else {
             // Include ref_by in binding
-            $stmt_insert_user->bind_param("ssssssssss", $firstname, $middlename, $lastname, $account_id, $username, $email, $phone, $country, $hashedPassword, $account_type);
+            $stmt_insert_user->bind_param("sssssssssss", $firstname, $middlename, $lastname, $account_id, $username, $email, $phone, $country, $currency, $hashedPassword, $account_type);
 
             if ($stmt_insert_user->execute()) {
                 // User successfully inserted into DB
@@ -991,7 +992,30 @@ if (isset($conn)) {
                                             <i data-lucide="chevron-down" class="h-5 w-5 text-gray-400"></i>
                                         </div>
                                     </div>
-                                                                    </div>
+                                </div>
+                                <!-- Currency -->
+                                <div>
+                                    <label for="currency" class="block text-sm font-medium text-gray-700 mb-2">Currency *</label>
+                                    <div class="relative">
+                                        <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                            <i data-lucide="globe" class="h-5 w-5 text-gray-400"></i>
+                                        </div>
+                                        <select 
+                                            id="currency" 
+                                            name="currency" 
+                                            x-model="formData.currency"
+                                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 appearance-none"
+                                            required>
+                                            <option value="" disabled selected>Select your Currency</option>
+                                            <option value="$">USD($)</option>
+                                            <option value="S$">SGD</option>
+                                            <option value="RM">MYR</option>
+                                        </select>
+                                        <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                                            <i data-lucide="chevron-down" class="h-5 w-5 text-gray-400"></i>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         

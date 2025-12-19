@@ -191,7 +191,7 @@ exit;
                                 </div>
                                 <div>
                                     <p class="text-sm text-gray-500">Available Balance</p>
-                                    <p class="text-xl font-bold text-gray-900">$<?php echo number_format($user['total_balance'], 2, '.',','); ?></p>
+                                    <p class="text-xl font-bold text-gray-900"><?php echo $user['currency']; ?><?php echo number_format($user['total_balance'], 2, '.',','); ?></p>
                                 </div>
                             </div>
                             <div class="hidden sm:block">

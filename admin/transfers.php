@@ -126,7 +126,7 @@ $query = mysqli_query($conn, "
 
                                             <td>#<?= $row['tranx_id'] ?></td>
 
-                                            <td>$<?= number_format($row['amount'], 2) ?></td>
+                                            <td><?php echo $user['currency']; ?><?= number_format($row['amount'], 2) ?></td>
 
                                             <td>
                                                 <?php

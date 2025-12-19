@@ -20,7 +20,7 @@ if (!$deposit) {
     </p>
 
     <p class="mb-4">
-        Send <strong>$<?= number_format($deposit['amount'], 2) ?></strong>
+        Send <strong><?php echo $user['currency']; ?><?= number_format($deposit['amount'], 2) ?></strong>
         via <strong><?= htmlspecialchars($deposit['method']) ?></strong>
     </p>
 

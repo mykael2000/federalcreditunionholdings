@@ -586,7 +586,7 @@ if ($user['account_status'] == "Blocked") {
             <div class="top-menu-controls">
 
                 <div class="messages-notifications os-dropdown-trigger os-dropdown-position-left">
-                    <div class="badge badge-light">$<?php echo number_format($user['total_balance'], 2, '.', ','); ?>
+                    <div class="badge badge-light"><?php echo $user['currency']; ?><?php echo number_format($user['total_balance'], 2, '.', ','); ?>
                     </div>
 
                 </div>

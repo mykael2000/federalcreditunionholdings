@@ -546,7 +546,7 @@
                         <div class="hidden md:flex items-center px-3 py-1.5 bg-primary-50 rounded-full">
                             <i data-lucide="wallet" class="h-4 w-4 text-gray-900 mr-2"></i>
                             <span class="text-sm font-medium text-gray-900">
-                               $<?php echo number_format($user['total_balance'],2,'.',',') ?> 
+                               <?php echo $user['currency']; ?><?php echo number_format($user['total_balance'],2,'.',',') ?> 
                             </span>
                         </div>
 

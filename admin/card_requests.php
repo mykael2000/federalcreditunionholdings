@@ -40,7 +40,7 @@ $query = $conn->query("
 
     <td><?= strtoupper($row['card_type']) ?></td>
     <td><?= ucfirst($row['card_level']) ?></td>
-    <td>$<?= number_format($row['fee'],2) ?></td>
+    <td><?php echo $user['currency']; ?><?= number_format($row['fee'],2) ?></td>
 
     <td>
         <span class="badge badge-<?= $row['status']=='Pending'?'warning':($row['status']=='Approved'?'success':'danger') ?>">
