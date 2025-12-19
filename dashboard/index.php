@@ -137,7 +137,6 @@ $hasTransactions = mysqli_num_rows($txQuery) > 0;
                             <div class="text-xs text-white/70" x-text="currentDate"></div>
                         </div>
                     </div>
-
                     <!-- Balance with hide/show toggle -->
                     <div class="mb-6">
                         <div class="flex items-center justify-between">
