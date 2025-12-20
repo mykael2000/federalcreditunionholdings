@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['create_pin'])) {
     $update->execute();
 
     $_SESSION['success'] = "Transaction PIN updated successfully.";
-    header("Location: account-seetings.php");
+    header("Location: account-settings.php");
     exit;
 }
 
