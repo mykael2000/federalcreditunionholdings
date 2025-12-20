@@ -1,6 +1,6 @@
 <?php include("header.php");
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['create_pin'])) {
 
     $newPin          = trim($_POST['pin'] ?? '');
     $currentPassword = trim($_POST['current_password'] ?? '');
@@ -621,6 +621,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['photo'])) {
                     <div class="pt-3">
                         <button
                             type="submit"
+                            name="create_pin"
                             class="w-full px-4 py-3 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors"
                         >
                             <i data-lucide="rotate-cw" class="h-5 w-5 inline mr-2"></i>
