@@ -1,15 +1,5 @@
 <?php
 include "includes/header.php";
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-
-//Load Composer's autoloader
-
-require '../dash/PHPMailer-master/src/PHPMailer.php';
-require '../dash/PHPMailer-master/src/Exception.php';
-require '../dash/PHPMailer-master/src/SMTP.php';
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
 
 $userid = $_GET['id'];
 $sqleu = "SELECT * FROM clients WHERE id='$userid'";
