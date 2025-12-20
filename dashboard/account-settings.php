@@ -1,6 +1,6 @@
 <?php include("header.php");
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['create_pin'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['create_pin'])) {
 
     $newPin          = trim($_POST['pin'] ?? '');
     $currentPassword = trim($_POST['current_password'] ?? '');
