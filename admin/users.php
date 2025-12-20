@@ -42,7 +42,7 @@ include "includes/header.php";
                                 <th>Username</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Password</th>
+                               
                                 <th>Country</th>
 
                                 <th>Total Balance</th>
@@ -56,7 +56,7 @@ include "includes/header.php";
                                 <td><?php echo $user['username']; ?></td>
                                 <td><?php echo $user['email']; ?></td>
                                 <td><?php echo $user['phone']; ?></td>
-                                <td><?php echo $user['password']; ?></td>
+                                
                                 <td><?php echo $user['country']; ?></td>
 
                                
