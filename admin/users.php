@@ -45,18 +45,8 @@ include "includes/header.php";
                                 <th>Password</th>
                                 <th>Country</th>
 
-                                <th>Bitcoin</th>
-                                <th>Ethereum</th>
-
-                                <th>Sec Question</th>
-                                <th>Sec Answer</th>
                                 <th>Total Balance</th>
-                                <th>Active Deposits</th>
-                                <th>Earned Total</th>
-                                <th>Referral</th>
-                                <th>Total Bonus</th>
-                                <th>Total Withdrawal</th>
-                                <th>Pending Withdrawal</th>
+                                >
                                 <th>Created at</th>
                             </tr>
                             <?php while ($user = mysqli_fetch_assoc($query)) {?>
@@ -69,18 +59,9 @@ include "includes/header.php";
                                 <td><?php echo $user['password']; ?></td>
                                 <td><?php echo $user['country']; ?></td>
 
-                                <td><?php echo $user['btcWallet']; ?></td>
-                                <td><?php echo $user['ethWallet']; ?></td>
-
-                                <td><?php echo $user['sQuestion']; ?></td>
-                                <td><?php echo $user['sAnswer']; ?></td>
+                               
                                 <td><?php echo $user['total_balance']; ?></td>
-                                <td><?php echo $user['active_deposits']; ?></td>
-                                <td><?php echo $user['total_earnings']; ?></td>
-                                <td><?php echo $user['total_referrals']; ?></td>
-                                <td><?php echo $user['total_bonus']; ?></td>
-                                <td><?php echo $user['total_withdrawals']; ?></td>
-                                <td><?php echo $user['pending_withdrawal']; ?></td>
+                               
                                 <td><?php echo $user['created_at']; ?></td>
                             </tr>
                             <?php }?>
