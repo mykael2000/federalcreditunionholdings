@@ -631,9 +631,61 @@
 
                                     <!-- KYC Verification Status -->
                                                                             <div class="mt-2">
-                                            <a href="verify.php" class="px-2 py-1 text-xs rounded-full bg-red-100 text-red-800 hover:bg-red-200 flex items-center w-max">
-                                                <i data-lucide="alert-circle" class="h-3 w-3 mr-1"></i> Verify Account
-                                            </a>
+                                            <?php if (empty($user['kyc_status'])): ?>
+
+                                <a href="verify.php"
+                                class="flex items-center justify-center py-1 rounded-md
+                                        bg-red-50 border border-red-100 hover:bg-red-100 transition-colors">
+                                    <span class="text-xs text-red-800 font-medium flex items-center">
+                                        <i data-lucide="alert-circle" class="h-3 w-3 mr-1"></i>
+                                        Verify KYC
+                                    </span>
+                                </a>
+                            <?php elseif ($user['kyc_status'] === 'unverified'): ?>
+
+                                <a href="verify.php"
+                                class="flex items-center justify-center py-1 rounded-md
+                                        bg-red-50 border border-red-100 hover:bg-red-100 transition-colors">
+                                    <span class="text-xs text-red-800 font-medium flex items-center">
+                                        <i data-lucide="alert-circle" class="h-3 w-3 mr-1"></i>
+                                        Verify KYC
+                                    </span>
+                                </a>
+
+                            <?php elseif ($user['kyc_status'] === 'pending'): ?>
+
+                                <div
+                                    class="flex items-center justify-center py-1 rounded-md
+                                        bg-yellow-50 border border-yellow-100">
+                                    <span class="text-xs text-yellow-800 font-medium flex items-center">
+                                        <i data-lucide="clock" class="h-3 w-3 mr-1"></i>
+                                        KYC Pending Review
+                                    </span>
+                                </div>
+
+                            <?php elseif ($user['kyc_status'] === 'verified'): ?>
+
+                                <div
+                                    class="flex items-center justify-center py-1 rounded-md
+                                        bg-green-50 border border-green-100">
+                                    <span class="text-xs text-green-800 font-medium flex items-center">
+                                        <i data-lucide="check-circle" class="h-3 w-3 mr-1"></i>
+                                        KYC Verified
+                                    </span>
+                                </div>
+
+                            <?php elseif ($user['kyc_status'] === 'rejected'): ?>
+
+                                <a href="verify.php"
+                                class="flex items-center justify-center py-1 rounded-md
+                                        bg-red-50 border border-red-100 hover:bg-red-100 transition-colors">
+                                    <span class="text-xs text-red-800 font-medium flex items-center">
+                                        <i data-lucide="x-circle" class="h-3 w-3 mr-1"></i>
+                                        KYC Rejected – Resubmit
+                                    </span>
+                                </a>
+
+                            <?php endif; ?>
                                         </div>
                                                                     </div>
 
