@@ -170,10 +170,44 @@ $hasTransactions = mysqli_num_rows($txQuery) > 0;
                     <div class="flex items-center">
                         <div class="text-lg font-bold truncate mr-2"><?php echo $user['account_id']; ?></div>
                         <div class="flex-shrink-0">
-                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                                <span class="h-1.5 w-1.5 rounded-full bg-red-600 mr-1"></span>
-                                Inactive
+                            <?php
+                            $status = $user['kyc_status'] ?? 'unverified';
+
+                            $styles = [
+                                'verified' => [
+                                    'bg' => 'bg-green-100',
+                                    'text' => 'text-green-800',
+                                    'dot' => 'bg-green-600',
+                                    'label' => 'Verified'
+                                ],
+                                'pending' => [
+                                    'bg' => 'bg-yellow-100',
+                                    'text' => 'text-yellow-800',
+                                    'dot' => 'bg-yellow-600',
+                                    'label' => 'Pending'
+                                ],
+                                'rejected' => [
+                                    'bg' => 'bg-red-100',
+                                    'text' => 'text-red-800',
+                                    'dot' => 'bg-red-600',
+                                    'label' => 'Rejected'
+                                ],
+                                'unverified' => [
+                                    'bg' => 'bg-gray-100',
+                                    'text' => 'text-gray-800',
+                                    'dot' => 'bg-gray-500',
+                                    'label' => 'Unverified'
+                                ]
+                            ];
+
+                            $badge = $styles[$status];
+                            ?>
+
+                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium <?= $badge['bg']; ?> <?= $badge['text']; ?>">
+                                <span class="h-1.5 w-1.5 rounded-full <?= $badge['dot']; ?> mr-1"></span>
+                                <?= $badge['label']; ?>
                             </span>
+
                         </div>
                     </div>
                 </div>
