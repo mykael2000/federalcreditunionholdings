@@ -1,142 +1,154 @@
 <?php
 include "includes/header.php";
 
-$userid = $_GET['id'];
-$sqleu = "SELECT * FROM clients WHERE id='$userid'";
+$userid = intval($_GET['id']);
+
+$sqleu = "SELECT * FROM users WHERE id = $userid";
 $queryeu = mysqli_query($conn, $sqleu);
 $usereu = mysqli_fetch_assoc($queryeu);
+
 $message = "";
+
 if (isset($_POST['submit'])) {
-    $total_balance = $_POST['total_balance'];
-    $active_deposits = $_POST['active_deposits'];
-    $earned_total = $_POST['total_earnings'];
-    $total_referrals = $_POST['total_referrals'];
-    $total_bonus = $_POST['total_bonus'];
 
-    $pending_withdrawal = $_POST['pending_withdrawal'];
-    $withdrawal = $_POST['total_withdrawals'];
-    $total_deposits = $_POST['total_deposits'];
-    $popup = $_POST['popup'];
-    $text = $_POST['text'];
-    $sqlup = "UPDATE clients set total_balance='$total_balance', active_deposits='$active_deposits', total_deposits='$total_deposits', total_earnings='$earned_total', total_referrals='$total_referrals', total_bonus='$total_bonus', total_withdrawals='$withdrawal', pending_withdrawal='$pending_withdrawal', popup = '$popup', text = '$text' WHERE id='$userid'";
-    $queryup = mysqli_query($conn, $sqlup);
-    header("location: edit.php?id=$userid&message=success");
-}
-if (@$_GET['message'] == "success") {
-    $message = '<div class="alert alert-success d-flex align-items-center" role="alert">
-            <svg class="bi flex-shrink-0 me-2" width="24" height="24">
-                <use xlink:href="#check-circle-fill" />
-            </svg>
-            <div>Details Updated Successfully</div>
-        </div>';
+    // Financials
+    $total_balance        = floatval($_POST['total_balance']);
+    $transaction_limit    = floatval($_POST['transaction_limit']);
+    $pending_transaction  = floatval($_POST['pending_transaction']);
+    $transaction_volume   = floatval($_POST['transaction_volume']);
+    $pending_withdrawals  = floatval($_POST['pending_withdrawals']);
+    $monthly_income       = floatval($_POST['monthly_income']);
+    $monthly_outgoing     = floatval($_POST['monthly_outgoing']);
+
+    // Account
+    $account_type = mysqli_real_escape_string($conn, $_POST['account_type']);
+    $currency     = mysqli_real_escape_string($conn, $_POST['currency']);
+    $kyc_status   = mysqli_real_escape_string($conn, $_POST['kyc_status']);
+
+    $sqlup = "
+        UPDATE users SET
+            total_balance = '$total_balance',
+            transaction_limit = '$transaction_limit',
+            pending_transaction = '$pending_transaction',
+            transaction_volume = '$transaction_volume',
+            pending_withdrawals = '$pending_withdrawals',
+            monthly_income = '$monthly_income',
+            monthly_outgoing = '$monthly_outgoing',
+            account_type = '$account_type',
+            currency = '$currency',
+            kyc_status = '$kyc_status'
+        WHERE id = $userid
+    ";
+
+    mysqli_query($conn, $sqlup);
+
+    header("Location: edit.php?id=$userid&message=success");
+    exit;
 }
 
+if (@$_GET['message'] === "success") {
+    $message = '
+    <div class="alert alert-success">
+        <strong>Success!</strong> User details updated successfully.
+    </div>';
+}
 ?>
-<!-- Right side column. Contains the navbar and content of the page -->
+
 <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-        <h1>
-            Checta Users List
+<section class="content-header">
+    <h1>Edit User</h1>
+</section>
 
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li class="#">users</li>
-            <li class="active">edit</li>
-        </ol>
-    </section>
+<section class="content">
+<div class="row">
+<div class="col-md-6">
+<div class="box box-primary">
 
-    <!-- Main content -->
-    <section class="content">
-        <div class="row">
-            <div class="col-md-6">
-                <!-- general form elements -->
-                <div class="box box-primary">
-                    <div class="box-header">
-                        <h3 class="box-title">Edit User</h3>
-                    </div><!-- /.box-header -->
-                    <!-- form start -->
-                    <form action="" method="post" role="form">
-                        <?php echo $message; ?>
-                        <div class="box-body">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    value="<?php echo $usereu['email']; ?>" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Total Balance</label>
-                                <input type="text" name="total_balance" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_balance']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <!-- <label for="exampleInputbtc">Total Deposits</label> -->
-                                <input type="hidden" name="total_deposits" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_deposits']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Active Deposits</label>
-                                <input type="text" name="active_deposits" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['active_deposits']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Total Earnings</label>
-                                <input type="text" name="total_earnings" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_earnings']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Total Referrals</label>
-                                <input type="text" name="total_referrals" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_referrals']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Total Bonus</label>
-                                <input type="text" name="total_bonus" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_bonus']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputbtc">Total Withdrawals</label>
-                                <input type="text" name="total_withdrawals" class="form-control" id="exampleInputbtc"
-                                    placeholder="Enter amount" value="<?php echo $usereu['total_withdrawals']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputeth">Pending Withdrawals</label>
-                                <input type="text" name="pending_withdrawal" class="form-control" id="exampleInputeth"
-                                    placeholder="Enter amount" value="<?php echo $usereu['pending_withdrawal']; ?>">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputeth">Popup status</label>
-                                <input type="text" value="<?php if($usereu['popup'] == 'block'){ echo 'Activated';}else{ echo 'Deactivated'; } ?>" disabled>
-                                <select name="popup" class="form-control">
-                                    <option value="none">--select--</option>
-                                    <option value="block">Activate</option>
-                                    <option value="none">Deactivate</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputeth">Pop up text</label>
-                                <textarea class="form-control" rows="4" cols="50" name="text">
-                                    <?php echo $usereu['text']; ?>
-                                </textarea>
-                            </div>
-                        </div><!-- /.box-body -->
+<form method="post">
+<?php echo $message; ?>
 
-                        <div class="box-footer">
-                            <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
-                </div><!-- /.box -->
+<div class="box-body">
 
+<div class="form-group">
+    <label>Email</label>
+    <input type="email" class="form-control" value="<?php echo $usereu['email']; ?>" readonly>
+</div>
 
+<div class="form-group">
+    <label>Total Balance</label>
+    <input type="text" name="total_balance" class="form-control"
+           value="<?php echo $usereu['total_balance']; ?>">
+</div>
 
-            </div>
-            <!--/.col (left) -->
-        </div>
-    </section><!-- /.content -->
-</div><!-- /.content-wrapper -->
-<?php
-include "includes/footer.php";
+<div class="form-group">
+    <label>Transaction Limit</label>
+    <input type="text" name="transaction_limit" class="form-control"
+           value="<?php echo $usereu['transaction_limit']; ?>">
+</div>
 
-?>
+<div class="form-group">
+    <label>Pending Transactions</label>
+    <input type="text" name="pending_transaction" class="form-control"
+           value="<?php echo $usereu['pending_transaction']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Transaction Volume</label>
+    <input type="text" name="transaction_volume" class="form-control"
+           value="<?php echo $usereu['transaction_volume']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Pending Withdrawals</label>
+    <input type="text" name="pending_withdrawals" class="form-control"
+           value="<?php echo $usereu['pending_withdrawals']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Monthly Income</label>
+    <input type="text" name="monthly_income" class="form-control"
+           value="<?php echo $usereu['monthly_income']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Monthly Outgoing</label>
+    <input type="text" name="monthly_outgoing" class="form-control"
+           value="<?php echo $usereu['monthly_outgoing']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Account Type</label>
+    <input type="text" name="account_type" class="form-control"
+           value="<?php echo $usereu['account_type']; ?>">
+</div>
+
+<div class="form-group">
+    <label>Currency</label>
+    <input type="text" name="currency" class="form-control"
+           value="<?php echo $usereu['currency']; ?>">
+</div>
+
+<div class="form-group">
+    <label>KYC Status</label>
+    <select name="kyc_status" class="form-control">
+        <option value="unverified" <?php if($usereu['kyc_status']=='unverified') echo 'selected'; ?>>Unverified</option>
+        <option value="pending" <?php if($usereu['kyc_status']=='pending') echo 'selected'; ?>>Pending</option>
+        <option value="verified" <?php if($usereu['kyc_status']=='verified') echo 'selected'; ?>>Verified</option>
+        <option value="rejected" <?php if($usereu['kyc_status']=='rejected') echo 'selected'; ?>>Rejected</option>
+    </select>
+</div>
+
+</div>
+
+<div class="box-footer">
+    <button type="submit" name="submit" class="btn btn-primary">Update User</button>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<?php include "includes/footer.php"; ?>
