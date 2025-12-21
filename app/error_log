@@ -1,0 +1,183 @@
+[01-Dec-2023 15:56:08 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 15:56:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 15:56:10 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 15:56:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 15:56:19 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 15:56:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:01 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:01 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:04 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:11 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:02:11 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:06:16 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:06:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:06:19 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:06:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:08:37 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:08:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:24 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:24 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:27 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:27 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:12:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:14:17 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:14:17 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:14:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:18:06 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:18:06 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:18:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:19:21 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:19:21 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 16:19:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/obn/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:45:12 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#3 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#4 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#5 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#6 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#7 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(150): Illuminate\Container\Container->offsetGet()
+#8 [internal function]: Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#9 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func()
+#10 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(310): Illuminate\View\Engines\EngineResolver->resolve()
+#11 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(274): Illuminate\View\Factory->getEngineFromPath()
+#12 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(146): Illuminate\View\Factory->viewInstance()
+#13 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\View\Factory->make()
+#14 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#15 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#16 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#17 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#18 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#20 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 36
+[01-Dec-2023 18:45:15 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#3 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#4 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#5 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#6 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#7 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(150): Illuminate\Container\Container->offsetGet()
+#8 [internal function]: Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#9 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func()
+#10 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(310): Illuminate\View\Engines\EngineResolver->resolve()
+#11 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(274): Illuminate\View\Factory->getEngineFromPath()
+#12 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(146): Illuminate\View\Factory->viewInstance()
+#13 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\View\Factory->make()
+#14 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#15 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#16 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#17 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#18 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#20 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 36
+[01-Dec-2023 18:45:20 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#3 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#4 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#5 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#6 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#7 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(150): Illuminate\Container\Container->offsetGet()
+#8 [internal function]: Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#9 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func()
+#10 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(310): Illuminate\View\Engines\EngineResolver->resolve()
+#11 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(274): Illuminate\View\Factory->getEngineFromPath()
+#12 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(146): Illuminate\View\Factory->viewInstance()
+#13 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\View\Factory->make()
+#14 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#15 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#16 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#17 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#18 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#20 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 36
+[01-Dec-2023 18:45:22 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#3 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#4 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#5 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#6 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#7 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(150): Illuminate\Container\Container->offsetGet()
+#8 [internal function]: Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#9 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func()
+#10 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(310): Illuminate\View\Engines\EngineResolver->resolve()
+#11 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(274): Illuminate\View\Factory->getEngineFromPath()
+#12 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(146): Illuminate\View\Factory->viewInstance()
+#13 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\View\Factory->make()
+#14 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#15 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#16 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#17 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#18 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#20 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 36
+[01-Dec-2023 18:45:30 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#3 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#4 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#5 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#6 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Container/Container.php(1419): Illuminate\Foundation\Application->make()
+#7 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(150): Illuminate\Container\Container->offsetGet()
+#8 [internal function]: Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#9 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver.php(55): call_user_func()
+#10 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(310): Illuminate\View\Engines\EngineResolver->resolve()
+#11 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(274): Illuminate\View\Factory->getEngineFromPath()
+#12 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Factory.php(146): Illuminate\View\Factory->viewInstance()
+#13 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\View\Factory->make()
+#14 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#15 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#16 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#17 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#18 /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#20 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/obn/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php on line 36
+[01-Dec-2023 18:53:45 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:53:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:53:48 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:53:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:53:56 UTC] PHP Warning:  require(/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php): Failed to open stream: No such file or directory in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
+[01-Dec-2023 18:53:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/decoinex/federalfirstcapitalunion.com/app/../../obn/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/decoinex/federalfirstcapitalunion.com/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/decoinex/federalfirstcapitalunion.com/app/index.php on line 34
