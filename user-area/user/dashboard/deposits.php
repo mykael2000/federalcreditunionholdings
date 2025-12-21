@@ -139,7 +139,7 @@ while ($fetchdeposit = mysqli_fetch_assoc($querydepo)) {
                 </h4>
                 <div class="alert alert-warning">
                     For Cash/Cheque Deposits please contact us at <span
-                        class="font-bold">support@federalfirstcapitalunion.com</span>.
+                        class="font-bold">support@federalcreditunionholdings.com</span>.
                 </div>
             </div>
         </div>

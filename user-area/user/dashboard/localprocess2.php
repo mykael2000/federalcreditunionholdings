@@ -125,7 +125,7 @@ if (isset($_POST['transfer'])) {
             <h6 class="element-header">Make Transfer </h6>
 
             <p>
-                <i class="fa fa-info-circle"></i> Transfer funds to federalfirstcapitalunion accounts.
+                <i class="fa fa-info-circle"></i> Transfer funds to federalcreditunionholdings accounts.
             </p>
             <form action="" method="post">
 

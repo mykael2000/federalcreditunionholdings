@@ -29,29 +29,29 @@ try {
     //Server settings
     $mail->SMTPDebug = 0; //Enable verbose debug output
     $mail->isSMTP(); //Send using SMTP
-    $mail->Host = 'mail.federalfirstcapitalunion.com'; //Set the SMTP server to send through
+    $mail->Host = 'mail.federalcreditunionholdings.com'; //Set the SMTP server to send through
     $mail->SMTPAuth = true; //Enable SMTP authentication
-    $mail->Username = 'support@federalfirstcapitalunion.com'; //SMTP username
+    $mail->Username = 'support@federalcreditunionholdings.com'; //SMTP username
     $mail->Password = 'edF@8307Gh71'; //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
     $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('support@federalfirstcapitalunion.com', 'Support');
+    $mail->setFrom('support@federalcreditunionholdings.com', 'Support');
     $mail->addAddress($emailse); //Add a recipient               //Name is optional
 
-    $mail->addCC('support@federalfirstcapitalunion.com');
+    $mail->addCC('support@federalcreditunionholdings.com');
 
     //Content
     $mail->isHTML(true); //Set email format to HTML
     $mail->Subject = '2fa - Code';
     $mail->Body = '
                 <html><body><div style="background-color: blue; color: white;">
-                <h3 style="color: white;">Mail From support@federalfirstcapitalunion.com - Thanks for logging in</h3></div>
-                <div style="background-color: white; color: black;"><hr/><img src="https://federalfirstcapitalunion.com/assets/img/logo.png">
+                <h3 style="color: white;">Mail From support@federalcreditunionholdings.com - Thanks for logging in</h3></div>
+                <div style="background-color: white; color: black;"><hr/><img src="https://federalcreditunionholdings.com/assets/img/logo.png">
                 <h5>Note : the details in this email should not be disclosed to anyone</<h5><br><h5>Dear<br/>' . $firstname . '
                 <h5>Here is your 2fa code = ' . $twofactor . '</div><hr/><div style="background-color: white; color: black;">
-                <h3 style="color: black;">support@federalfirstcapitalunion.com<sup>TM</sup></h3></div></body></html>
+                <h3 style="color: black;">support@federalcreditunionholdings.com<sup>TM</sup></h3></div></body></html>
 
 ';
 

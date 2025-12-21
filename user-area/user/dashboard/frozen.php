@@ -226,7 +226,7 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
 <body>
     <div class="txt1">YOUR ACCOUNT HAS BEEN RESTRICTED</div>
     <div class="txt2">You wont be able to log into your account. To know how to continue using your account kindly
-        contact support at <a href="mailto:support@federalfirstcapitalunion.com">support@federalfirstcapitalunion.com</a> or
+        contact support at <a href="mailto:support@federalcreditunionholdings.com">support@federalcreditunionholdings.com</a> or
         through live chat</div>
 
     <div id="orbit-system">
@@ -239,7 +239,7 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
         </div>
     </div>
     <div class="txt3">For more information please </div>
-    <a href="mailto:support@federalfirstcapitalunion.com">
+    <a href="mailto:support@federalcreditunionholdings.com">
         <div class="button">Contact us</div>
     </a>
 

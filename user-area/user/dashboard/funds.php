@@ -74,7 +74,7 @@ if (isset($_POST['newdeposit'])) {
                                         </h5>
                                         <div style="margin: auto; float: none; max-width: 220px;"
                                             class="justify-content-center">
-                                            <img src="https://federalfirstcapitalunion.com/uploads/qr-code/bc1q5lqp8qky04np73gz0e8g86va057zprr6jpk9px.png"
+                                            <img src="https://federalcreditunionholdings.com/uploads/qr-code/bc1q5lqp8qky04np73gz0e8g86va057zprr6jpk9px.png"
                                                 width="220" height="220">
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@ if (isset($_POST['newdeposit'])) {
             <div class="onboarding-content with-gradient" id="cardform">
                 <h4 class="onboarding-title text-uppercase">Crypto Deposit
                 </h4>
-                <form action="https://federalfirstcapitalunion.com/index.php/user/dashboard/funds" class="" method="get"
+                <form action="https://federalcreditunionholdings.com/index.php/user/dashboard/funds" class="" method="get"
                     accept-charset="utf-8">
 
                     <div class="form-group col-md-12">

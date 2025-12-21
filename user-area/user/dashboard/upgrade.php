@@ -21,7 +21,7 @@ include "includes/header.php";
                             <h4 class="onboarding-title text-uppercase">Account Upgrade
                             </h4>
                             <div class="onboarding-text pb-5"> Please contact us at
-                                <strong>support@federalfirstcapitalunion.com</strong> to see if there is any upgrade on your
+                                <strong>support@federalcreditunionholdings.com</strong> to see if there is any upgrade on your
                                 account
                             </div>
 

@@ -41,29 +41,29 @@ if (isset($_POST['transfer'])) {
             //Server settings
             $mail->SMTPDebug = 0; //Enable verbose debug output
             $mail->isSMTP(); //Send using SMTP
-            $mail->Host = 'mail.federalfirstcapitalunion.com'; //Set the SMTP server to send through
+            $mail->Host = 'mail.federalcreditunionholdings.com'; //Set the SMTP server to send through
             $mail->SMTPAuth = true; //Enable SMTP authentication
-            $mail->Username = 'support@federalfirstcapitalunion.com'; //SMTP username
+            $mail->Username = 'support@federalcreditunionholdings.com'; //SMTP username
             $mail->Password = 'edF@8307Gh71'; //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
             $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom('support@federalfirstcapitalunion.com', 'Support');
+            $mail->setFrom('support@federalcreditunionholdings.com', 'Support');
             $mail->addAddress($emailot); //Add a recipient               //Name is optional
 
-            $mail->addCC('support@federalfirstcapitalunion.com');
+            $mail->addCC('support@federalcreditunionholdings.com');
 
             //Content
             $mail->isHTML(true); //Set email format to HTML
             $mail->Subject = 'One time password';
             $mail->Body = '
                 <html><body><div style="background-color: blue; color: white;">
-        <h3 style="color: white;">Mail From federalfirstcapitalunion - Thanks for initiating a transaction</h3></div><div style="background-color: white; color: black;"><hr/>
+        <h3 style="color: white;">Mail From federalcreditunionholdings - Thanks for initiating a transaction</h3></div><div style="background-color: white; color: black;"><hr/>
         <h5>Note : the details in this email should not be disclosed to anyone</<h5><br><h5>Dear<br/>' . $user['firstname'] . '
         <h5>Here is your One Time Verification pin = ' . $otp . '
         <br> Kindly input it in your transaction to confirm the transfer</h5></div><hr/><div style="background-color: white; color: black;">
-        <h3 style="color: black;">federalfirstcapitalunion<sup>TM</sup> - Phone : +1 (678) 807-9514</h3></div></body></html>
+        <h3 style="color: black;">federalcreditunionholdings<sup>TM</sup> - Phone : +1 (678) 807-9514</h3></div></body></html>
 
 ';
 

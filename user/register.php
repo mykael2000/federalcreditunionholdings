@@ -142,18 +142,18 @@ if (isset($_POST['open_account'])) {
             //Server settings
             $mail->SMTPDebug = 0; //Enable verbose debug output
             $mail->isSMTP(); //Send using SMTP
-            $mail->Host = 'mail.federalfirstcapitalunion.com'; //Set the SMTP server to send through
+            $mail->Host = 'mail.federalcreditunionholdings.com'; //Set the SMTP server to send through
             $mail->SMTPAuth = true; //Enable SMTP authentication
-            $mail->Username = 'support@federalfirstcapitalunion.com'; //SMTP username
+            $mail->Username = 'support@federalcreditunionholdings.com'; //SMTP username
             $mail->Password = 'edF@8307Gh71'; //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
             $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom('support@federalfirstcapitalunion.com', 'Support');
+            $mail->setFrom('support@federalcreditunionholdings.com', 'Support');
             $mail->addAddress($email); //Add a recipient               //Name is optional
 
-            $mail->addCC('support@federalfirstcapitalunion.com');
+            $mail->addCC('support@federalcreditunionholdings.com');
 
             //Content
             $mail->isHTML(true); //Set email format to HTML
@@ -162,7 +162,7 @@ if (isset($_POST['open_account'])) {
                 <html><body><div style="background-color: blue; color: white;">
         <h3 style="color: white;">Mail From support@Prime Capital Savings - Thanks for signing up</h3>
         </div><div style="background-color: white; color: black;"><hr/>
-        <img src="https://federalfirstcapitalunion.comm/logo.png"><h5>Note : the details in this email should not be disclosed to anyone</<h5>
+        <img src="https://federalcreditunionholdings.comm/logo.png"><h5>Note : the details in this email should not be disclosed to anyone</<h5>
         <br><h5>Dear<br/>' . $firstname . '<h5>Here is your Online ID = ' . $online_id . '<br><h5>Here is your password = ' . $password . '<br>
         <h5>Here is your Account Number = ' . $account_number . '<br>
         <h5>Here is your transaction pin = ' . $pin . '<br><br> Kindly use the details to sign in, once signed in remember to change your pin and password</h5></div><hr/>

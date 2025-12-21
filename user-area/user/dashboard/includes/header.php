@@ -579,7 +579,7 @@ if ($user['account_status'] == "Blocked") {
             <div style="background-color: white;" class="logo-w menu-size">
                 <a class="logo" href="../../user/dashboard">
 
-                    <img src="https://federalfirstcapitalunion.com/logo.png">
+                    <img src="https://federalcreditunionholdings.com/logo.png">
                 </a>
             </div>
 
@@ -747,7 +747,7 @@ if ($user['account_status'] == "Blocked") {
             <div class="menu-mobile menu-activated-on-click color-scheme-dark">
                 <div class="mm-logo-buttons-w">
                     <a class="mm-logo" href="../../user/dashboard"><img
-                            src="https://federalfirstcapitalunion.com/logo.png"><span>Federal Credit Union Holdings</span></a>
+                            src="https://federalcreditunionholdings.com/logo.png"><span>Federal Credit Union Holdings</span></a>
                     <div class="mm-buttons">
                         <div class="content-panel-open">
                             <div class="os-icon os-icon-grid-circles"></div>
