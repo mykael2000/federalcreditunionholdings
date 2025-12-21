@@ -247,39 +247,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <div class="grid-x">
         <div class="small-12 cell">
             <div class="text-right">
-              <a href="login.php" aria-label="Close login pane." class="oc-close" data-toggle="off-canvas-right"><span class="times">&times;</span></a>
+              <a href="app/login" >Login</a>
             </div>
           
-            <label>Account Type
-              <select name="account-login" class="account-login" disabled>
-                                  <option value="olb"> Personal Online Banking </option>
-                                  <!-- <option value="olb"> Business Online Banking </option>
-                                  <option value="olb"> Commercial InBusiness </option>
-                                  <option value="https://evision.htlf.com/MultifactorAuthenticationWebClient/Default.aspx?ReturnUrl=%2fMerchantCaptureWebClient%2fDefault.aspx%3finstitution%3dNMBT&amp;institution=NMBT"> eDeposit </option>
-                                  <option value="https://www.fraudpreventionhq.com/client-login/nmb-t"> ACH Alert </option>
-                                  <option value="https://translink.transfirst.com/login.aspx?ReturnUrl=%2f%3fbranding%3dnmbt6001&amp;branding=nmbt6001"> Merchant Services </option>
-                                  <option value="https://wealth.emaplan.com/ema/SignIn?ema%2flpl%2fheartlandfinancialusa"> SAVVY Financial Planning </option>
-                                  <option value="https://financingaccountconnect.com/Heartland/"> Mortgage Center </option>
-                                  <option value="olb"> Wealth Advisory Services </option>
-                                  <option value="https://www.retirementaccountlogin.com/heartland/"> Retirement Plan Services </option>
-                                  <option value="https://myaccountviewonline.com/AccountView/"> NMB&T Investment Services AccountView </option>
-                                  <option value="https://www.ezcardinfo.com/#/"> eZCard </option>
-                                  <option value="https://www.ezbusinesscardmanagement.com/Login.aspx"> eZBusiness </option> -->
-                              </select>
-            </label>
-            <form id="mobile-logind" action="/app/login" method="post" class="online-banking">
-              <div id="mobile-loginalertdiv"></div>
-              <label for="mobile-username">Login Email</label>
-              <input aria-label="Username" id="mobile-username" class="input-group-field" type="text" placeholder="Username" name="email" required />
-
-                              <label for="mobile-password">Password</label>
-                <input aria-label="Password" id="mobile-password" class="input-group-field" type="password" placeholder="Password" name="password" required />
-                            <div class="oc-login-button">
-                <input type="submit" name="submit" value="Log In" class="button" />
-              </div>
-
             
-            </form>
             
             <a href="/app/login" class="button primary login-button other" target="_blank" style="display: none;">
               Go to account
