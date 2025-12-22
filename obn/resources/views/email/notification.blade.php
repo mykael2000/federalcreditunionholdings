@@ -81,7 +81,7 @@
                           </tr>
                           <tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-left:0; padding-top:0; padding-bottom:0; font-family:'Roboto', sans-serif; font-size:14px; line-height:16px; padding-right:80px">
-                              Need help? Contact <a href="mailto:support@federalcreditunionholdingsunionbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalcreditunionholdingsunionbank.com</a>
+                              Need help? Contact <a href="mailto:support@federalcreditunionholdingsbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalcreditunionholdingsbank.com</a>
                             </td>
                           </tr>
                         </table>
