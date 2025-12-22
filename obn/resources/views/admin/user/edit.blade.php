@@ -339,7 +339,7 @@
                                                 @if(empty($user->profile))
                                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1200px-Placeholder_no_text.svg.png" class="img-thumbnail w-100">
                                                 @else
-                                                <img src="https://federalfirstcapitalunion.com/obn/storage/app/public{{ $user->profile }}" class="img-thumbnail w-100">
+                                                <img src="https://federalcreditunionholdings.online/obn/storage/app/public{{ $user->profile }}" class="img-thumbnail w-100">
                                                 @endif
                                             </div>
                                         </div>
@@ -378,7 +378,7 @@
                                             <span class="text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
-                                      {{-- <div class="col-md-6">
+                                      <div class="col-md-6">
                                             <label for="first_name">Transfer OTP</label>
                                             <div class="input-group  mb-3">
                                                 <div class="input-group-prepend">
@@ -390,7 +390,7 @@
                                             @error('otp')
                                             <span class="text-danger">{{ $message }}</span>
                                             @enderror
-                                        </div> --}}
+                                        </div>
 
                                     </div>
 

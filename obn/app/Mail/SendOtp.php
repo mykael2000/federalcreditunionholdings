@@ -30,7 +30,7 @@ class SendOtp extends Mailable
      */
     public function build()
     {
-        return $this->from('support@federalfirstcapitalunion.com', 'Federal First Capital Union')
+        return $this->from('support@federalcreditunionholdings.online', 'Federal Credit Union Holdings')
                ->subject('OTP VERIFICATION')
                ->view('email.otp')->with(['data'=>$this->data]);
     }

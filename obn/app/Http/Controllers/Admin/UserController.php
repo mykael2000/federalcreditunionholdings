@@ -117,7 +117,7 @@ class UserController extends Controller
 
         $records = request()->all();
 
-        if ($request->hasFile('passport')) {
+      if ($request->hasFile('passport')) {
 
             $imagePath = $request->passport->store('public/checks');
 

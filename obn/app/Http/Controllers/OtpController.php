@@ -29,8 +29,8 @@ class OtpController extends Controller
 
         $number = mt_rand(1111111111, 9999999999); // better than rand()
 
-        $otp = substr($number, 0, 7);
-
+         $otp = substr($number, 0, 7);
+			//$otp = $user->otp;
         $data = [
             "full_name" => $user->first_name.' '.$user->last_name,
             "email"     => $user->email,
@@ -46,8 +46,21 @@ class OtpController extends Controller
             'updated_at' => Carbon::now()
 
         ]);
+		
+      //$to = $user->email;
+      //$subject = "OTP for $process";
+      //$message = "Dear {$user->first_name},\n\nYour OTP for $process is: $otp\n\nThank you.";
+      //$headers = "From: support@federalcreditunionholdings.online"; 
 
-
+      // Send the email
+      //if (mail($to, $subject, $message, $headers)) {
+         // return $otp; // Return the OTP if the email was sent successfully
+      //} else {
+          // Handle the error (e.g., log it, throw an exception, etc.)
+          // For now, just return false
+        //  return false;
+      //}
+	
         Mail::to($user->email)->send(new SendOtp($data));
 
     }

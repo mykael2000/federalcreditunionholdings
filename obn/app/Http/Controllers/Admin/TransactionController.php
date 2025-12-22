@@ -15,11 +15,11 @@ class TransactionController extends Controller
 
         $deposits = DB::table('deposits')->join('users', 'users.id', '=', 'deposits.user_id')
                                          ->select('users.first_name', 'users.last_name','users.currency', 'deposits.*', 'users.account_number')->get();
-       
+
 
         return view('admin.transaction.deposit', [
             'deposits' => $deposits,
-           
+
         ]);
 
     }
@@ -28,12 +28,12 @@ class TransactionController extends Controller
 
         $transactions = DB::table('withdrawals')->join('users', 'users.id', '=', 'withdrawals.user_id')
                                          ->select('users.first_name', 'users.last_name','users.currency', 'withdrawals.*')->get();
-        
+
 
         return view('admin.transaction.withdrawals', [
 
             'transactions' => $transactions,
-           
+
 
         ]);
 
@@ -62,7 +62,7 @@ class TransactionController extends Controller
             'withdrawal' => DB::table('withdrawals')->where('id', $id)->first()
 
         ]);
-        
+
     }
 
     public function editTransfer($id) {
@@ -76,7 +76,7 @@ class TransactionController extends Controller
     }
 
     public function storeWithdrawal() {
-        
+
         request()->validate( [
 
             'amount'        => 'required|string',
@@ -104,7 +104,7 @@ class TransactionController extends Controller
     }
 
     public function storeTransfers() {
-        
+
         request()->validate( [
 
             'amount'        => 'required|string',
@@ -115,7 +115,7 @@ class TransactionController extends Controller
             'created_at'    => 'required',
             'status'        => 'required'
         ]);
-		
+
 		$tranx = DB::table('transfers')->where('id', request('transfer_id'))->first();
         DB::table('transfers')->where('id', request('transfer_id'))->update([
 
@@ -128,12 +128,12 @@ class TransactionController extends Controller
             'created_at'   => request('created_at'),
 
         ]);
-		
-		
+
+
 		if($tranx->status == 'processing' && request('status') == 'approved') {
-			
+
 			$user = DB::table('users')->where('id', $tranx->user_id)->first();
-		
+
 			$data = [
 				"type" => 'Debit',
 				"amount" => request('amount'),
@@ -145,11 +145,11 @@ class TransactionController extends Controller
 			];
 
 			Mail::to($user->email)->send(new SendTransactionAlert($data));
-			
+
 			DB::table('users')->where('id', $user->id)->update([
 				'account_balance' => DB::raw('account_balance - '.request('amount')),
 			]);
-		
+
 		}
 
         return redirect()->back()->with(['success'=>'Successfully saved changes']);
@@ -170,9 +170,9 @@ class TransactionController extends Controller
         return redirect()->back()->with(['success'=>'Successfully deleted transaction']);
 
     }
-	
+
 	public function store() {
-		
+
 		request()->validate([
 			'amount' => 'required',
 			'to_from'=> 'required',
@@ -180,9 +180,9 @@ class TransactionController extends Controller
 			'account'	  => 'required',
 			'type'		  => 'required',
             'status' => 'required'
-			
+
 		]);
-		
+
 		if(request('type') == 'debit') {
 			DB::table('users')->where('id', request('account'))->update([
 				'account_balance' => DB::raw('account_balance - '.request('amount')),
@@ -192,45 +192,45 @@ class TransactionController extends Controller
 				'account_balance' => DB::raw('account_balance + '.request('amount')),
 			]);
 		}
-		
+
 		$records = request()->all();
-		
+
 		unset($records['_token'], $records['account']);
-		
-		$records['user_id'] = request('account'); 
-		
+
+		$records['user_id'] = request('account');
+
 		DB::table('transactions')->insert($records);
-		
+
 		$user = DB::table('users')->where('id', request('account'))->first();
-		
+
 		$data = [
 			"type" => request('type'),
 			"amount" => request('amount'),
 			'user' => $user,
-			'subject' => request('type') == 'credit' ? "Federal First Capital Union Credit Alert" : "Federal First Capital Union Debit Alert",
+			'subject' => request('type') == 'credit' ? "Federal Credit Union Holdings Credit Alert" : "Federal Credit Union Holdings Debit Alert",
 			'from' => request('to_from'),
 			'description' => request('description'),
 			'date' => request('created_at'),
           	'status'=> request('status')
 		];
-		
+
 		Mail::to($user->email)->send(new SendTransactionAlert($data));
-		
+
 		return redirect()->back()->with(['success'=>'Successfully '.request('type').'ed account']);
 	}
-	
+
 	public function show(){
-		
+
 		$transactions = DB::table('transactions')->join('users', 'users.id', '=', 'transactions.user_id')
                                          ->select('users.first_name', 'users.last_name','users.currency', 'transactions.*')->orderBy('id', 'DESC')->get();
-		
-		
+
+
 		return view('admin.transaction.show', [
 				'transactions' => $transactions,
-				
+
 		]);
 	}
-	
+
 	public function deleteTrans($id) {
 
         DB::table('transactions')->where('id', $id)->delete();

@@ -78,7 +78,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
-<!-- Start Breadcrumbbar -->                    
+<!-- Start Breadcrumbbar -->
 <div class="breadcrumbbar">
     <div class="row align-items-center">
         <div class="col-md-8 col-lg-8">
@@ -93,9 +93,9 @@
         <div class="col-md-4 col-lg-4">
             <div class="widgetbar">
                 <a href="/user/transactions" class="btn btn-primary-rgba"><i class="feather icon-eye mr-2"></i>View Transactions</a>
-            </div>                        
+            </div>
         </div>
-    </div>          
+    </div>
 </div>
 <!-- End Breadcrumbbar -->
 
@@ -107,16 +107,16 @@
         <div class="col-md-8 offset-md-2">
             <div class="card m-b-30">
                 <div class="card-header">
-                    <div class="row">                                           
-                        <div class="col-md-10 offset-md-1 d-flex">                             
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 d-flex">
                             <h4 class="card-title">Initializing Transaction</h4>
                             <div class="dot-flashing ml-4 mt-2"></div>
                         </div>
-                    </div>                               
+                    </div>
                 </div>
                 <div class="card-content">
                     <div class="card-body">
-                        <div class="row">                                           
+                        <div class="row">
                             <div class="col-md-10 offset-md-1">
                                 <div class="progressbar-container">
                                     <div class="progressbar text-center text-white pt-2"></div>
@@ -170,4 +170,4 @@
     setTimeout(() => changeProgress(100), 8000);
 </script>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalfirstcapitalunion.com/obn/resources/views/user/transfer/progress.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalcreditunionholdingsunion.com/obn/resources/views/user/transfer/progress.blade.php ENDPATH**/ ?>

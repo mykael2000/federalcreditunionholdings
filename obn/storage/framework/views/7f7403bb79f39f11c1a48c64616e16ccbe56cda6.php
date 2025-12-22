@@ -1,7 +1,7 @@
 <?php $__env->startSection('title', 'OBNK - Transfers - Progress'); ?>
 
 <?php $__env->startSection('content'); ?>
-<!-- Start Breadcrumbbar -->                    
+<!-- Start Breadcrumbbar -->
 <div class="breadcrumbbar">
     <div class="row align-items-center">
         <div class="col-md-8 col-lg-8">
@@ -16,9 +16,9 @@
         <div class="col-md-4 col-lg-4">
             <div class="widgetbar">
                 <a href="/app/user/transactions" class="btn btn-primary-rgba"><i class="feather icon-eye mr-2"></i>View Transactions</a>
-            </div>                        
+            </div>
         </div>
-    </div>          
+    </div>
 </div>
 <!-- End Breadcrumbbar -->
 
@@ -31,7 +31,7 @@
             <div class="card m-b-30">
                 <div class="card-content">
                     <div class="card-body">
-                        <div class="row">                                           
+                        <div class="row">
                             <div class="col-md-8 offset-md-2">
                                 <div class="text-center">
                                     <img src="<?php echo e(asset('img/icons/89479312-validation-icon-isolated-on-special-blue-round-button-abstract-illustration.jpg')); ?>" class="w-50">
@@ -52,4 +52,4 @@
 <!-- END: Content-->
 
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/user/transfer/complete.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/user/transfer/complete.blade.php ENDPATH**/ ?>

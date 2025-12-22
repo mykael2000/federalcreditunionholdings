@@ -1,7 +1,7 @@
  <!-- Start Footerbar -->
  <div class="footerbar">
                 <footer class="footer">
-                    <p class="mb-0">© <?php echo e(date('Y')); ?> Federal First Capital Union Bank - All Rights Reserved.</p>
+                    <p class="mb-0">© <?php echo e(date('Y')); ?> Federal Credit Union Holdings Bank - All Rights Reserved.</p>
                 </footer>
             </div>
             <!-- End Footerbar -->
@@ -58,4 +58,4 @@ s0.parentNode.insertBefore(s1,s0);
 </body>
 
 </html>
-<?php /**PATH /home/decoinex/federalfirstcapitalunion.com/obn/resources/views/layouts/user/footer.blade.php ENDPATH**/ ?>
+<?php /**PATH /home/decoinex/federalcreditunionholdings.com/obn/resources/views/layouts/user/footer.blade.php ENDPATH**/ ?>

@@ -2,7 +2,7 @@
 
 <?php $__env->startSection('content'); ?>
 
-<!-- Start Breadcrumbbar -->                    
+<!-- Start Breadcrumbbar -->
 <div class="breadcrumbbar">
     <div class="row align-items-center">
         <div class="col-md-8 col-lg-8">
@@ -17,9 +17,9 @@
         <div class="col-md-4 col-lg-4">
             <div class="widgetbar">
                 <a href="/user/transactions" class="btn btn-primary-rgba"><i class="feather icon-eye mr-2"></i>View Transactions</a>
-            </div>                        
+            </div>
         </div>
-    </div>          
+    </div>
 </div>
 <!-- End Breadcrumbbar -->
 
@@ -29,12 +29,12 @@
     <div class="row">
         <div class="col-md-10 offset-md-1 mt-4">
             <div class="card m-b-50">
-                <div class="card-header">                               
-                    <h2 class="border-bottom pb-3"><strong>Fund - Send Money</strong></h2>                                
+                <div class="card-header">
+                    <h2 class="border-bottom pb-3"><strong>Fund - Send Money</strong></h2>
                 </div>
                 <div class="card-content">
                     <div class="card-body">
-                        <div class="row">                                           
+                        <div class="row">
                             <div class="col-12">
                                 <form autocomplete="OFF" method="post" action="<?php echo e(route('user.transfer.store')); ?>">
                                     <?php echo csrf_field(); ?>
@@ -179,9 +179,9 @@ unset($__errorArgs, $__bag); ?>
         </div>
     </div>
     <!-- END: Card DATA-->
-   
+
 </div>
 <!-- END: Content-->
 
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/user/transfer/create.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/user/transfer/create.blade.php ENDPATH**/ ?>

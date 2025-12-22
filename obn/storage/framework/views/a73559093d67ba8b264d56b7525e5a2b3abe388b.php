@@ -447,7 +447,7 @@ unset($__errorArgs, $__bag); ?>
                                             </div>
                                         </div>
 
-                                        
+
 
                                         <div class="col-md-6">
                                             <label for="first_name">Tax status</label>
@@ -600,4 +600,4 @@ unset($__errorArgs, $__bag); ?>
 
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.admin.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/admin/user/edit.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.admin.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/admin/user/edit.blade.php ENDPATH**/ ?>

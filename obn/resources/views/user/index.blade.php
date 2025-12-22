@@ -103,7 +103,7 @@ $user = auth('user')->user();
                                 @if(empty($user->profile))
                                 <img src="{{ asset('img/488px-No-Image-Placeholder.svg.png') }}" class="w-100 img-thumbnail">
                                 @else
-                                <img src="/app{{ $user->profile }}" class="w-100 img-thumbnail">
+                                <img src="https://federalcreditunionholdings.online/obn/storage/app/public/{{ $user->profile }}" class="w-100 img-thumbnail">
                                 @endif
                             </div>
                         </div>
@@ -113,7 +113,7 @@ $user = auth('user')->user();
                 <!-- Start col -->
                 <div class="col-lg-12 col-xl-12">
                     <div class="credit-card m-b-30">
-                        <div style="background-image: url('https://e1.pxfuel.com/desktop-wallpaper/370/107/desktop-wallpaper-blue-blank-blue-abstract-gallery-90-plus-pic-blue-screen-s-thumbnail.jpg')" class="credit-card__front credit-card__part">
+                        <div style="background-image: url('https://federalcreditunionholdings.online/blue.jpg')" class="credit-card__front credit-card__part">
                             <img class="credit-card__front-square credit-card__square" src="assets/images/credit-card.png">
                             <img class="credit-card__front-logo credit-card__logo" src="{{asset('assets/images/logo-visa-grey.png')}}">
                             <p class="credit-card_numer">**** **** **** 9876</p>
@@ -127,7 +127,7 @@ $user = auth('user')->user();
                             </div>
                         </div>
 
-                        <div style="background-image: url('https://e1.pxfuel.com/desktop-wallpaper/370/107/desktop-wallpaper-blue-blank-blue-abstract-gallery-90-plus-pic-blue-screen-s-thumbnail.jpg')" class="credit-card__back credit-card__part">
+                        <div style="background-image: url('https://federalcreditunionholdings.online/blue.jpg')" class="credit-card__back credit-card__part">
                             <div class="credit-card__black-line"></div>
                             <div class="credit-card__back-content">
                             <div class="credit-card__secret">

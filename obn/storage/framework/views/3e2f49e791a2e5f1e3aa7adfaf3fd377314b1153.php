@@ -120,4 +120,4 @@ unset($__errorArgs, $__bag); ?>
     </div>
 <!-- END: Content-->
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/user/account/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdings.com/public_html/obn/resources/views/user/account/index.blade.php ENDPATH**/ ?>

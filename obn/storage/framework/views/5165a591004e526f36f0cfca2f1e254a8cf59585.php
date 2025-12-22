@@ -81,7 +81,7 @@
                           </tr>
                           <tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-left:0; padding-top:0; padding-bottom:0; font-family:'Roboto', sans-serif; font-size:14px; line-height:16px; padding-right:80px">
-                              Need help? Contact <a href="mailto:support@federalcreditunionbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalfirstcapitalunionbank.com</a>
+                              Need help? Contact <a href="mailto:support@federalcreditunionbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalcreditunionholdingsbank.com</a>
                             </td>
                           </tr>
                         </table>
@@ -122,9 +122,9 @@
       </tr>
       <tr>
         <td align="center" style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-left:0; padding-right:0; padding-top:0; font-size:14px; font-family:'Roboto', sans-serif; line-height:16px; text-align:center; padding-bottom:80px">
-          © Federal First Capital Union Bank LTD 2009-2021. All rights reserved. <br /> 2477 Hog Camp Road Bensenville, Illinois
+          © Federal Credit Union Bank LTD 2009-2021. All rights reserved. <br /> 2477 Hog Camp Road Bensenville, Illinois
         </td>
       </tr>
     </table>
   </body>
-</html><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/email/otp.blade.php ENDPATH**/ ?>
+</html><?php /**PATH /home/federalcreditunionholdings.com/public_html/obn/resources/views/email/otp.blade.php ENDPATH**/ ?>

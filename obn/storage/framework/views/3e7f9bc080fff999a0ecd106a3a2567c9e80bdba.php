@@ -81,4 +81,4 @@
 <script src="<?php echo e(asset('dist/vendors/datatable/buttons/js/buttons.print.min.js')); ?>"></script>
 <script src="<?php echo e(asset('/dist/js/datatable.script.js')); ?>"></script>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.admin.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/admin/message/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.admin.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdings.com/public_html/obn/resources/views/admin/message/index.blade.php ENDPATH**/ ?>

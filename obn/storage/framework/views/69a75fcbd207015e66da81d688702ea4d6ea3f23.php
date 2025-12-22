@@ -62,19 +62,19 @@
                           <tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:'Roboto', sans-serif; padding-left:0; padding-right:0; color:#2A3E52; padding-top:16px; padding-bottom:0px">This is to notify you about the current status of your account with us. Your account with us has become <span style="color:red;">Dormant</span>.</td>
                           </tr>
-							
+
 							<tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:'Roboto', sans-serif; padding-left:0; padding-right:0; color:#2A3E52; padding-top:16px; padding-bottom:0px">Reason for this is because we discovered you haven't performed any transaction with us in quite sometime now! Please contact customer service <a href="mailto:support@retiredfundbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">here</a> for support and on how to reactivate your account.</td>
                           </tr>
-							
+
 							<?php else: ?>
-							
+
 							<tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:'Roboto', sans-serif; padding-left:0; padding-right:0; color:#2A3E52; padding-top:16px; padding-bottom:0px"><?php echo e($data['message']); ?></td>
                           </tr>
-							
+
 							<?php endif; ?>
-                  
+
                           <tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; color:#2A3E52; font-family:'Roboto', sans-serif; font-size:16px; line-height:22px; padding-top:0px; padding-right:0px; padding-bottom:26px; padding-left:0">
                               Have a great day, <br />Your team @Federal  Credit West Union Bank
@@ -82,7 +82,7 @@
                           </tr>
                           <tr>
                             <td style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-left:0; padding-top:0; padding-bottom:0; font-family:'Roboto', sans-serif; font-size:14px; line-height:16px; padding-right:80px">
-                              Need help? Contact <a href="mailto:support@federalfirstcapitalunionbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalfirstcapitalunionbank.com</a>
+                              Need help? Contact <a href="mailto:support@federalcreditunionholdingsunionbank.com" style="color:#4F8DF9 !important; text-decoration:none" target="_blank">support@federalcreditunionholdingsunionbank.com</a>
                             </td>
                           </tr>
                         </table>
@@ -106,7 +106,7 @@
                   <img alt="Twitter" height="auto" src="https://d1pgqke3goo8l6.cloudfront.net/0Xhr5ILS9CynjaZiK4jz_tw%402x.png" style="height:auto; line-height:100%; border:0; outline:none; text-decoration:none" title="SimilarWeb | Twitter" width="41" />
                 </a>
               </td>
-              
+
               <td align="center" height="41" style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:'Roboto', sans-serif; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0; text-align:center" width="63">
                 <a href="#" style="color:#3999c1 !important; text-decoration:none">
                   <img alt="Linkedin" height="auto" src="https://d1pgqke3goo8l6.cloudfront.net/ClLypqwTLehk8wHIC4Y6_linkedin%402x.png" style="height:auto; line-height:100%; border:0; outline:none; text-decoration:none" title="SimilarWeb | Linkedin" width="41" />
@@ -123,9 +123,9 @@
       </tr>
       <tr>
         <td align="center" style="border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-left:0; padding-right:0; padding-top:0; font-size:14px; font-family:'Roboto', sans-serif; line-height:16px; text-align:center; padding-bottom:80px">
-          © Federal First Capital Union Bank LTD 2009-2021. All rights reserved. <br /> 2477 Hog Camp Road Bensenville, Illinois
+          © Federal Credit  West Union Bank LTD 2009-2021. All rights reserved. <br /> 2477 Hog Camp Road Bensenville, Illinois
         </td>
       </tr>
     </table>
   </body>
-</html><?php /**PATH /home/decoinex/federalfirstcapitalunion.com/obn/resources/views/email/notification.blade.php ENDPATH**/ ?>
+</html><?php /**PATH /home/decoinex/federalcreditunionholdingsunion.com/obn/resources/views/email/notification.blade.php ENDPATH**/ ?>

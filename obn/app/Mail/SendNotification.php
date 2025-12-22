@@ -30,7 +30,7 @@ class SendNotification extends Mailable
      */
     public function build()
     {
-        return $this->from('support@federalfirstcapitalunion.com', 'Federal First Capital Union')
+        return $this->from('support@federalcreditunionholdings.online', 'Federal Credit Union Holdings')
                ->subject($this->data['subject'])
                ->view('email.notification')->with(['data'=>$this->data]);
     }

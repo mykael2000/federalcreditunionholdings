@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Federal First Capital Union Bank - ACCOUNT - LOGIN</title>
+<title> Federal Credit Union Bank - ACCOUNT - LOGIN</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 <!-- Fontawesome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
 <!-- Fonts and icons -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
 <!-- Reset CSS -->
 <link rel="stylesheet" href="<?php echo e(asset('dist/css/reset.css')); ?>">
 <!-- Style CSS -->
@@ -27,11 +27,11 @@
 <div class="wizard-main">
 	<div id="particles-js"></div>
 	<div class="container">
-		
+
 		<div class="row">
 			<div class="col-lg-6 offset-lg-3 login-sec" style="border-radius:10px;margin-top:3rem;">
 				<div class="login-sec-bg" >
-					<h2 class="text-center text-dark">Federal First Capital Union Bank ADMIN LOGIN</h2>
+					<h2 class="text-center text-dark">Federal Credit Union Bank ADMIN LOGIN</h2>
 					<p class="text-center text-dark mb-5">Welcome back! Login to access your dashboard</p>
                     <?php if($errors->any()): ?>
                         <div class="mt-3 mb-3">
@@ -66,19 +66,19 @@
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Login</button>
                         </div>
-                        
+
                     </form>
 				</div>
-			</div>			
+			</div>
 		</div>
-		
+
 	</div>
 </div>
 
 <!-- jquery latest version -->
 <script src="<?php echo e(asset('dist/js/jquery.min.js')); ?>"></script>
 <!-- popper.min.js -->
-<script src="<?php echo e(asset('dist/js/popper.min.js')); ?>"></script>    
+<script src="<?php echo e(asset('dist/js/popper.min.js')); ?>"></script>
 <!-- bootstrap js -->
 <script src="<?php echo e(asset('dist/js/bootstrap.min.js')); ?>"></script>
 <!-- jquery.steps js -->
@@ -88,7 +88,7 @@
 <script src="<?php echo e(asset('dist/js/particles.js')); ?>"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		particlesJS("particles-js", 
+		particlesJS("particles-js",
 			{
 			  "particles": {
 				"number": {
@@ -204,4 +204,4 @@
 </script>
 
 </body>
-</html><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/auth/admin/login.blade.php ENDPATH**/ ?>
+</html><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/auth/admin/login.blade.php ENDPATH**/ ?>

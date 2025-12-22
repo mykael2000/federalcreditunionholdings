@@ -3,7 +3,7 @@
 
 <?php $__env->startSection('content'); ?>
 
-<!-- Start Breadcrumbbar -->                    
+<!-- Start Breadcrumbbar -->
 <div class="breadcrumbbar">
     <div class="row align-items-center">
         <div class="col-md-8 col-lg-8">
@@ -18,9 +18,9 @@
         <div class="col-md-4 col-lg-4">
             <div class="widgetbar">
                 <a href="<?php echo e(route('user.account-security')); ?>" class="btn btn-primary-rgba"><i class="feather icon-eye mr-2"></i>Change Password</a>
-            </div>                        
+            </div>
         </div>
-    </div>          
+    </div>
 </div>
 <!-- End Breadcrumbbar -->
 
@@ -37,7 +37,7 @@
 
         <div class="col-12 col-lg-5 mt-3">
             <div class="card m-b-30">
-                <div class="card-header text-center">  
+                <div class="card-header text-center">
                     <h5 class="card-title mb-0">Picture Identification</h5>
                 </div>
                 <div class="card-body p-0">
@@ -58,20 +58,20 @@
                     <p class="p-2"><strong>Phone:</strong> <?php echo e($user->phone); ?></p>
                     <p class="p-2"><strong>Home Address:</strong> <?php echo e($user->address); ?></p>
                 </div>
-            </div>   
+            </div>
         </div>
 
         <div class="col-12 col-lg-7 mt-3">
             <div class="card m-b-50">
-                <div class="card-header">                               
-                    <h4 class="card-title">Edit Account Information</h4>                                
+                <div class="card-header">
+                    <h4 class="card-title">Edit Account Information</h4>
                 </div>
                 <div class="card-content">
                     <div class="card-body">
-                        <div class="row">                                           
+                        <div class="row">
                             <div class="col-12">
                                 <form action="<?php echo e(route('user.account-setting.store')); ?>" method="post">
-                                    <?php echo csrf_field(); ?> 
+                                    <?php echo csrf_field(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label for="first_name">First name</label>
@@ -80,7 +80,7 @@
                                                     <span class="input-group-text bg-transparent border-right-0" id="basic-addon1"><i class="icon-user"></i></span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="First name" name="first_name" value="<?php echo e($user->first_name); ?>">
-                                                
+
                                             </div>
                                             <?php $__errorArgs = ['first_name'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -101,7 +101,7 @@ unset($__errorArgs, $__bag); ?>
                                                     <span class="input-group-text bg-transparent border-right-0" id="basic-addon1"><i class="icon-user"></i></span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Last name" name="last_name" value="<?php echo e($user->last_name); ?>">
-                                                
+
                                             </div>
                                             <?php $__errorArgs = ['last_name'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -124,7 +124,7 @@ unset($__errorArgs, $__bag); ?>
                                                 <span class="input-group-text bg-transparent border-right-0" id="basic-addon1"><i class="icon-user"></i></span>
                                             </div>
                                             <input type="text" class="form-control" placeholder="Username" value="<?php echo e($user->username); ?>" name="username">
-                                            
+
                                         </div>
                                         <?php $__errorArgs = ['username'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -140,7 +140,7 @@ unset($__errorArgs, $__bag); ?>
                                     <div class="row">
 
                                         <div class="col-md-6">
-                                            
+
                                             <label for="email">Email</label>
 
                                             <div class="input-group mb-3">
@@ -163,7 +163,7 @@ unset($__errorArgs, $__bag); ?>
                                         </div>
 
                                         <div class="col-md-6">
-                                            
+
                                             <label for="phone">Phone</label>
 
                                             <div class="input-group mb-3">
@@ -171,7 +171,7 @@ unset($__errorArgs, $__bag); ?>
                                                     <span class="input-group-text bg-transparent border-right-0" id="basic-email"><i class="icon-phone"></i></span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Enter phone" name="phone" value="<?php echo e($user->phone); ?>">
-                                                
+
                                             </div>
                                             <?php $__errorArgs = ['phone'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -199,7 +199,7 @@ unset($__errorArgs, $__bag); ?>
                                                     <span class="input-group-text bg-transparent border-right-0" id="basic-password"><i class="icon-home"></i></span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Enter home address" name="address" value="<?php echo e($user->address); ?>">
-                                                
+
                                             </div>
                                             <?php $__errorArgs = ['address'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -217,9 +217,9 @@ unset($__errorArgs, $__bag); ?>
                                             <label for="age">AGE</label>
 
                                             <div class="input-group mb-3">
-                                                
+
                                                 <input type="number" class="form-control" name="age" value="<?php echo e($user->age); ?>">
-                                                
+
                                             </div>
                                             <?php $__errorArgs = ['age'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -246,10 +246,10 @@ unset($__errorArgs, $__bag); ?>
                 </div>
             </div>
         </div>
-            
+
         </div>
         <!-- END: Card DATA-->
     </div>
 <!-- END: Content-->
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalfirstcapitalunion.com/obn/resources/views/user/account/profile.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalcreditunionholdingsunion.com/obn/resources/views/user/account/profile.blade.php ENDPATH**/ ?>

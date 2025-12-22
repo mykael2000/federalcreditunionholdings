@@ -21,7 +21,7 @@ class RegisteredUserController extends Controller
      */
     public function create()
     {
-        // return view('auth.register');
+        return view('auth.register');
     }
 
     /**
@@ -45,20 +45,20 @@ class RegisteredUserController extends Controller
             'password' => 'required|string|confirmed|min:8',
         ]);
 
-        // $user = User::create([
+        $user = User::create([
 
-        //     'first_name' => $request->first_name,
-        //     'last_name'  => $request->last_name,
-        //     'username'   => $request->user_name,
-        //     'email'      => $request->email,
-        //     'phone'      => $request->phone,
-        //     'address'    => $request->address,
-        //     'age'        => $request->age,
-        //     'account_type' => $request->account_type,
-        //     'account_number' =>  $this->generateAccountNumber(),
-        //     'password' => Hash::make($request->password),
+            'first_name' => $request->first_name,
+            'last_name'  => $request->last_name,
+            'username'   => $request->user_name,
+            'email'      => $request->email,
+            'phone'      => $request->phone,
+            'address'    => $request->address,
+            'age'        => $request->age,
+            'account_type' => $request->account_type,
+            'account_number' =>  $this->generateAccountNumber(),
+            'password' => Hash::make($request->password),
 
-        // ]);
+        ]);
 
         event(new Registered($user));
 
@@ -79,11 +79,11 @@ class RegisteredUserController extends Controller
         if ($this->accountNumberExists($number)) {
             return $this->generateAccountNumber();
         }
-
+    
         // otherwise, it's valid and can be used
         return $number;
     }
-
+    
     public function accountNumberExists($number) {
         // query the database and return a boolean
         // for instance, it might look like this in Laravel

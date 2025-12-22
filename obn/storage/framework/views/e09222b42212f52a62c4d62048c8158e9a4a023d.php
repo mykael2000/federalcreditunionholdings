@@ -227,4 +227,4 @@ $user = auth('user')->user();
 <!-- End Contentbar -->
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/user/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/user/index.blade.php ENDPATH**/ ?>

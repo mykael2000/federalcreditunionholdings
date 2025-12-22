@@ -55,6 +55,7 @@ class ErrorHandler
         \E_USER_DEPRECATED => 'User Deprecated',
         \E_NOTICE => 'Notice',
         \E_USER_NOTICE => 'User Notice',
+        \E_STRICT => 'Runtime Notice',
         \E_WARNING => 'Warning',
         \E_USER_WARNING => 'User Warning',
         \E_COMPILE_WARNING => 'Compile Warning',
@@ -72,6 +73,7 @@ class ErrorHandler
         \E_USER_DEPRECATED => [null, LogLevel::INFO],
         \E_NOTICE => [null, LogLevel::WARNING],
         \E_USER_NOTICE => [null, LogLevel::WARNING],
+        \E_STRICT => [null, LogLevel::WARNING],
         \E_WARNING => [null, LogLevel::WARNING],
         \E_USER_WARNING => [null, LogLevel::WARNING],
         \E_COMPILE_WARNING => [null, LogLevel::WARNING],
@@ -181,11 +183,6 @@ class ErrorHandler
 
     public function __construct(?BufferingLogger $bootstrappingLogger = null, bool $debug = false)
     {
-        if (\PHP_VERSION_ID < 80400) {
-            $this->levels[\E_STRICT] = 'Runtime Notice';
-            $this->loggers[\E_STRICT] = [null, LogLevel::WARNING];
-        }
-
         if ($bootstrappingLogger) {
             $this->bootstrappingLogger = $bootstrappingLogger;
             $this->setDefaultLogger($bootstrappingLogger);
@@ -520,12 +517,7 @@ class ErrorHandler
                         }
 
                         // Display the original error message instead of the default one.
-                        $exitCode = self::$exitCode;
-                        try {
-                            $this->handleException($errorAsException);
-                        } finally {
-                            self::$exitCode = $exitCode;
-                        }
+                        $this->handleException($errorAsException);
 
                         // Stop the process by giving back the error to the native handler.
                         return false;
@@ -677,10 +669,6 @@ class ErrorHandler
             set_exception_handler($h);
         }
         if (!$handler) {
-            if (null === $error && $exitCode = self::$exitCode) {
-                register_shutdown_function('register_shutdown_function', function () use ($exitCode) { exit($exitCode); });
-            }
-
             return;
         }
         if ($handler !== $h) {
@@ -716,7 +704,8 @@ class ErrorHandler
             // Ignore this re-throw
         }
 
-        if ($exit && $exitCode = self::$exitCode) {
+        if ($exit && self::$exitCode) {
+            $exitCode = self::$exitCode;
             register_shutdown_function('register_shutdown_function', function () use ($exitCode) { exit($exitCode); });
         }
     }

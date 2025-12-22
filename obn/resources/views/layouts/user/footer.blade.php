@@ -1,7 +1,7 @@
  <!-- Start Footerbar -->
  <div class="footerbar">
                 <footer class="footer">
-                    <p class="mb-0">© {{ date('Y') }} Federal First Capital Union Bank - All Rights Reserved.</p>
+                    <p class="mb-0"> {{ date('Y') }} Federal Credit Union Holdings Bank - All Rights Reserved.</p>
                 </footer>
             </div>
             <!-- End Footerbar -->
@@ -10,7 +10,20 @@
     </div>
     <!-- End Containerbar -->
 
-    <script src="//code.tidio.co/ltzlhu3szayzvcganip1tppvejj8kdqm.js" async></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6837804f3c64fb190d6d645d/1isccqdtb';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
     <!-- Start js -->
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/js/popper.min.js')}}"></script>

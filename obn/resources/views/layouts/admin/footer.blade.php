@@ -1,7 +1,7 @@
  <!-- Start Footerbar -->
  <div class="footerbar">
                 <footer class="footer">
-                    <p class="mb-0">© {{ date('Y') }} Federal First Capital Union Bank - All Rights Reserved.</p>
+                    <p class="mb-0">© {{ date('Y') }} Federal Credit Union Holdings Bank - All Rights Reserved.</p>
                 </footer>
             </div>
             <!-- End Footerbar -->
@@ -9,7 +9,7 @@
         <!-- End Rightbar -->
     </div>
     <!-- End Containerbar -->
-    <!-- Start js -->        
+    <!-- Start js -->
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/js/popper.min.js')}}"></script>
     <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>

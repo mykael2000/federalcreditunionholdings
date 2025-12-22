@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Federal First Capital Union  - ACCOUNT - CREATION</title>
+<title> Federal Credit Union Holdings  - ACCOUNT - CREATION</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -342,4 +342,4 @@
 
 </body>
 </html>
-<?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/auth/register.blade.php ENDPATH**/ ?>
+<?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/auth/register.blade.php ENDPATH**/ ?>

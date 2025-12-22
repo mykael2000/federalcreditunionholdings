@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Federal First Capital Union Bank - ACCOUNT - LOGIN</title>
+<title> Federal Credit Union Bank - ACCOUNT - LOGIN</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="col-lg-6 offset-lg-3 login-sec" style="border-radius:10px;margin-top:3rem;">
 				<div class="login-sec-bg" >
-					<h2 class="text-center text-dark">Federal First Capital Union Bank ADMIN LOGIN</h2>
+					<h2 class="text-center text-dark">Federal Credit Union Bank ADMIN LOGIN</h2>
 					<p class="text-center text-dark mb-5">Welcome back! Login to access your dashboard</p>
                     @if ($errors->any())
                         <div class="mt-3 mb-3">

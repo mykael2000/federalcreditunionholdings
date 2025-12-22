@@ -47,7 +47,7 @@
                         @if(empty($user->profile))
                         <img src="{{ asset('img/488px-No-Image-Placeholder.svg.png') }}" class="w-100 img-thumbnail">
                         @else
-                        <img src="https://federalfirstcapitalunion.com/obn/storage/app/public{{ $user->profile }}" class="w-100 img-thumbnail">
+                        <img src="/app{{ $user->profile }}" class="w-100 img-thumbnail">
                         @endif
                     </div>
                 </div>

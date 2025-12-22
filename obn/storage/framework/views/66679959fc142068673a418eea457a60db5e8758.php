@@ -59,16 +59,16 @@
                                                 <td><?php echo e(date('d/m/Y', strtotime($transfer->created_at))); ?></td>
                                             </tr>
                                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                                            
+
 
                                         </tbody>
-                                        
+
                                     </table>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
 
-                    </div>                  
+                    </div>
                 </div>
                 <!-- END: Card DATA-->
                 <div class="mb-5" style="margin-top:18rem"></div>
@@ -80,7 +80,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-<script src="<?php echo e(asset('dist/vendors/datatable/js/jquery.dataTables.min.js')); ?>"></script> 
+<script src="<?php echo e(asset('dist/vendors/datatable/js/jquery.dataTables.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/js/dataTables.bootstrap4.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/jszip/jszip.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/pdfmake/pdfmake.min.js')); ?>"></script>
@@ -93,4 +93,4 @@
 <script src="<?php echo e(asset('dist/vendors/datatable/buttons/js/buttons.print.min.js')); ?>"></script>
 <script src="<?php echo e(asset('/dist/js/datatable.script.js')); ?>"></script>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/resources/views/user/transfer/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/federalcreditunionholdingsunion.com/public_html/obn/resources/views/user/transfer/index.blade.php ENDPATH**/ ?>

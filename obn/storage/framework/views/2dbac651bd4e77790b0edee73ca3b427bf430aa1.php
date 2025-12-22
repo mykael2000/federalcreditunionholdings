@@ -36,4 +36,4 @@
         </div>
     </body>
 </html>
-<?php /**PATH /home/federalfirstcapitalunion.com/public_html/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/minimal.blade.php ENDPATH**/ ?>
+<?php /**PATH /home/federalcreditunionholdings.com/public_html/obn/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/minimal.blade.php ENDPATH**/ ?>

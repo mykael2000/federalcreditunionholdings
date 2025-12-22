@@ -6,7 +6,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
-<!-- Start Breadcrumbbar -->                    
+<!-- Start Breadcrumbbar -->
 <div class="breadcrumbbar">
     <div class="row align-items-center">
         <div class="col-md-8 col-lg-8">
@@ -21,9 +21,9 @@
         <div class="col-md-4 col-lg-4">
             <div class="widgetbar">
                 <a href="/user/transfers/create" class="btn btn-primary-rgba"><i class="feather icon-eye mr-2"></i> Transfer funds</a>
-            </div>                        
+            </div>
         </div>
-    </div>          
+    </div>
 </div>
 <!-- End Breadcrumbbar -->
 
@@ -70,18 +70,18 @@
                                     <td><span class="badge badge-info"><?php echo e($transaction->status); ?></span></td>
                                     <td><?php echo e(date('D j, F Y', strtotime($transaction->created_at))); ?></td>
                                 </tr>
-                                
+
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                                
+
 
                             </tbody>
-                            
+
                         </table>
                     </div>
                 </div>
-            </div> 
+            </div>
 
-        </div>                  
+        </div>
     </div>
     <!-- END: Card DATA-->
 </div>
@@ -89,7 +89,7 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('js'); ?>
-<script src="<?php echo e(asset('dist/vendors/datatable/js/jquery.dataTables.min.js')); ?>"></script> 
+<script src="<?php echo e(asset('dist/vendors/datatable/js/jquery.dataTables.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/js/dataTables.bootstrap4.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/jszip/jszip.min.js')); ?>"></script>
 <script src="<?php echo e(asset('dist/vendors/datatable/pdfmake/pdfmake.min.js')); ?>"></script>
@@ -102,4 +102,4 @@
 <script src="<?php echo e(asset('dist/vendors/datatable/buttons/js/buttons.print.min.js')); ?>"></script>
 <script src="<?php echo e(asset('/dist/js/datatable.script.js')); ?>"></script>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalfirstcapitalunion.com/obn/resources/views/user/transaction/transaction.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.user.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/decoinex/federalcreditunionholdingsunion.com/obn/resources/views/user/transaction/transaction.blade.php ENDPATH**/ ?>
